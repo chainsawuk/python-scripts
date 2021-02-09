@@ -21,7 +21,7 @@ def convert(word):
    # get the binary data
    letters = getBinaryData();
 
-   # loop through letters/words given and match it to binary equiveant stored in json file
+   # loop through letters/words given and match it to binary equiveant
    for l in word:
     for letter in letters: 
        if(letter == l):
